@@ -8,20 +8,26 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
-    <header>
+    <header class="header">
       <div class="container">
         <!-- logo -->
         <a class="logo link" href="./index.html">Web<span class="logo-header">Studio</span></a>
-  
+
         <!-- navigation -->
         <nav class="nav">
           <ul class="nav-list list">
-            <li class="nav-item"><a class="nav-link-current link" href="./index.html">Студія</a></li>
+            <li class="nav-item"><a class="nav-link link current" href="./index.html">Студія</a></li>
             <li class="nav-item"><a class="nav-link link" href="./portfolio.html">Портфоліо</a></li>
             <li class="nav-item"><a class="nav-link link" href="">Контакти</a></li>
           </ul>
@@ -69,52 +75,58 @@
 
       <!-- work -->
       <section class="work">
-        <h2 class="work-title">Чим ми займаємося</h2>
-        <ul class="work-list list">
-          <li class="work-item"><img class="work-img" src="./images/desktop.jpg" alt="Десктопні додатки" width="370" height="294" /></li>
-          <li class="work-item"><img class="work-img" src="./images/mobile.jpg" alt="Мобільні додатки" width="370" height="294" /></li>
-          <li class="work-item"><img class="work-img" src="./images/design.jpg" alt="Дизайнерські рішення" width="370" height="294" /></li>
-        </ul>
+        <div class="container">
+          <h2 class="work-title">Чим ми займаємося</h2>
+          <ul class="work-list list">
+            <li class="work-item"><img class="work-img" src="./images/desktop.jpg" alt="Десктопні додатки" width="370" height="294" /></li>
+            <li class="work-item"><img class="work-img" src="./images/mobile.jpg" alt="Мобільні додатки" width="370" height="294" /></li>
+            <li class="work-item"><img class="work-img" src="./images/design.jpg" alt="Дизайнерські рішення" width="370" height="294" /></li>
+          </ul>
+        </div>
       </section>
 
       <!-- team -->
       <section class="team">
-        <h2 class="team-title">Наша команда</h2>
-        <ul class="team-list list">
-          <li class="team-item">
-            <img class="team-img" src="./images/teammate_1.jpg" alt="Ігор Дем'яненко" width="270" height="260" />
-            <h3 class="team-subtitle">Ігор Дем'яненко</h3>
-            <p class="team-text">Product Designer</p>
-          </li>
-          <li class="team-item">
-            <img class="team-img" src="./images/teammate_2.jpg" alt="Ольга Рєпіна" width="270" height="260" />
-            <h3 class="team-subtitle">Ольга Рєпіна</h3>
-            <p class="team-text">Frontend Developer</p>
-          </li>
-          <li class="team-item">
-            <img class="team-img" src="./images/teammate_3.jpg" alt="Микола Тарасов" width="270" height="260" />
-            <h3 class="team-subtitle">Микола Тарасов</h3>
-            <p class="team-text">Marketing</p>
-          </li>
-          <li class="team-item">
-            <img class="team-img" src="./images/teammate_4.jpg" alt="Михайло Єрмаков" width="270" height="260" />
-            <h3 class="team-subtitle">Михайло Єрмаков</h3>
-            <p class="team-text">UI Designer</p>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="team-title">Наша команда</h2>
+          <ul class="team-list list">
+            <li class="team-item">
+              <img class="team-img" src="./images/teammate_1.jpg" alt="Ігор Дем'яненко" width="270" height="260" />
+              <h3 class="team-subtitle">Ігор Дем'яненко</h3>
+              <p class="team-text">Product Designer</p>
+            </li>
+            <li class="team-item">
+              <img class="team-img" src="./images/teammate_2.jpg" alt="Ольга Рєпіна" width="270" height="260" />
+              <h3 class="team-subtitle">Ольга Рєпіна</h3>
+              <p class="team-text">Frontend Developer</p>
+            </li>
+            <li class="team-item">
+              <img class="team-img" src="./images/teammate_3.jpg" alt="Микола Тарасов" width="270" height="260" />
+              <h3 class="team-subtitle">Микола Тарасов</h3>
+              <p class="team-text">Marketing</p>
+            </li>
+            <li class="team-item">
+              <img class="team-img" src="./images/teammate_4.jpg" alt="Михайло Єрмаков" width="270" height="260" />
+              <h3 class="team-subtitle">Михайло Єрмаков</h3>
+              <p class="team-text">UI Designer</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
     <footer class="footer">
-      <!-- logo -->
-      <a class="logo link" href="./index.html">Web<span class="logo-footer">Studio</span></a>
-      <address class="address">
-        <ul class="address-list list">
-          <li class="address-item"><a class="address-map link" href="https://goo.gl/maps/GGHUYbkFzDP6m6Ls8" target="_blank" rel="noopener noreferrer">м. Київ, пр-т Лесі Українки, 26</a></li>
-          <li class="address-item"><a class="address-link link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li class="address-item"><a class="address-link link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
-      </address>
+      <div class="container">
+        <!-- logo -->
+        <a class="logo link" href="./index.html">Web<span class="logo-footer">Studio</span></a>
+        <address class="address">
+          <ul class="address-list list">
+            <li class="address-item"><a class="address-map link" href="https://goo.gl/maps/GGHUYbkFzDP6m6Ls8" target="_blank" rel="noopener noreferrer">м. Київ, пр-т Лесі Українки, 26</a></li>
+            <li class="address-item"><a class="address-link link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="address-item"><a class="address-link link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
