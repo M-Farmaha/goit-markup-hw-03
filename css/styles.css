@@ -122,9 +122,6 @@ body {
 .hero {
   background-color: var(--second-bg-color);
   text-align: center;
-}
-
-.hero > .container {
   padding: 200px 0px;
 }
 
@@ -176,7 +173,7 @@ body {
   overflow: hidden;
 }
 
-.adv > .container {
+.adv {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -209,7 +206,7 @@ body {
 
 /* ----------------WORK------------------ */
 
-.work > .container {
+.work {
   padding-bottom: 94px;
 }
 
@@ -232,7 +229,7 @@ body {
 
 /* ----------------TEAM------------------ */
 
-.team > .container {
+.team {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -281,9 +278,6 @@ body {
 /* ----------------FOOTER------------------ */
 .footer {
   background-color: var(--second-bg-color);
-}
-
-.footer > .container {
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -291,6 +285,10 @@ body {
 .address {
   font-style: inherit;
   margin-top: 20px;
+}
+
+.address-item:not(:first-child) {
+  margin-top: 9px;
 }
 
 .address-map,
@@ -303,14 +301,11 @@ body {
 
 .address-link {
   color: rgba(255, 255, 255, 0.6);
-
-  display: inline-block;
-  margin-top: 9px;
 }
 
 /* --------------------PORTFOLIO-------------------- */
 
-.portfolio > .container {
+.portfolio {
   padding-top: 94px;
   padding-bottom: 94px;
 }
